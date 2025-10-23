@@ -22,14 +22,13 @@ function App() {
         <Box component='main' sx={{paddingTop: navHeight}}>
 
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/Home' element={<Home/>}/>
+        <Route path='/Home' element={<Home/>} />
+        <Route path='/stampp-tech-solutions' element={<Home/>} />
         <Route path='/About' element={<About/>}/>
         <Route path='/Contact' element={<Contact/>}/>
         <Route path='/Projects' element={<Projects/>}/>
       </Routes>
         </Box>
-
          <div style={{display: 'flex', justifyContent: 'center',
               flexDirection: 'column', alignItems: 'center', marginTop: '10vh'
             }}>
