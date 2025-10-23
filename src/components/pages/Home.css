@@ -1,0 +1,39 @@
+@keyframes spin {
+  from {
+    transform: rotateY(0)
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.Logo {
+
+    animation: spin 15s linear infinite;
+    background-color: teal;
+    box-shadow: 25px 5px 15px teal;
+}
+
+@keyframes slidein {
+
+    from {
+        transform: translateX(100vw);
+    }
+    to{
+
+        transform: translateX(0vw);
+    }
+
+}
+
+body {
+
+    animation: slidein 6s;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+
+  font-size: large;
+}
